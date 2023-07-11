@@ -1,0 +1,30 @@
+name: shrine
+description: Learn the basics of using Material Components by building a simple app with core components.
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.17.0-nullsafety.2
+
+  cupertino_icons: ^1.0.3
+  shrine_images: ^2.0.1
+  url_launcher: ^6.0.10
+  flutter_rating_bar: ^4.0.0
+  smooth_star_rating: ^1.1.1
+  animated_text_kit: ^4.2.1
+  lottie: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  # TODO: Insert Fonts (103)
+  uses-material-design: true
+  assets:
+    - assets/diamond.png
+    - assets/images/
